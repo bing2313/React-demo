@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.content_box {
+  width: 500px;
+  margin: auto;
+  padding-top: 80px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ant-row.ant-form-item {
+  margin-bottom: 14px;
+}
+.ant-input {
+  width: 400px;
+}
+.flex_box {
+  display: flex;
+  justify-content: space-between;
+}
+/* 表头 */
+.table_form {
+  border-bottom: 1px dashed cyan;
+}
+.list_box {
+  width: 100%;
+  border: 1px dashed cyan;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border-bottom: none;
+}
+.list_box li {
+  list-style: none;
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+.table_list_li:hover {
+  background-color: #FFF0F5;
+}
+/* 分页 */
+.fenye {
+  text-align: center;
 }
