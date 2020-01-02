@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Form, Icon, Input, Button, message } from 'antd';
-import TodoItem from '@/TodoItem.js'
 import 'antd/dist/antd.css';
+import { Link } from 'react-router-dom';
+import TodoItem from '@/TodoItem.js'
 import '@/index.css';
 class TodoList extends Component {
   constructor(props){
@@ -85,6 +86,9 @@ class TodoList extends Component {
             { listDom }
           </Form.Item>
         </Form>
+        <div>
+          <Link to='/Tab'>跳转到tab栏切换页面</Link>
+        </div>
       </div>
     )
   }
