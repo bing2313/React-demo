@@ -8,7 +8,7 @@ class PageOne extends Component {
         <br />
         {this.props.tabNum}
         <br />
-        <img src={require('@/images/dia-bgimg.png')} alt="测试图片标签的显示" />
+        <img src={require('@/images/login-bg.png')} alt="测试图片标签的显示" />
       </div>
     )
   }

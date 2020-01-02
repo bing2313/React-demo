@@ -39,6 +39,8 @@ class Tab extends Component {
         <br />
         <br />
         <Link to="/TodoList">跳转到首页</Link>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <Link to="/Login">跳转到登录页面</Link>
       </div>
     )
   }

@@ -1,3 +1,8 @@
+div,ul,li,p,span,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .content_box {
   width: 500px;
   margin: auto;
