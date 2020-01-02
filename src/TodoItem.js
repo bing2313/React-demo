@@ -11,7 +11,6 @@ class TodoItem extends Component {
     }
   }
   delectItem (index) { // 删除Item选项
-    // this.props.delectItem(index)
     this.setState({
       visible: true,
       listIndex: index
@@ -41,7 +40,6 @@ class TodoItem extends Component {
           visible={this.state.visible}
           onOk={() => this.handleOk()}
           onCancel={this.handleCancel}>
-          {/* onCancel={this.setState({visible: false}) }> */}
           <span>确定要删除本条数据吗？删除后不可恢复！</span>
         </Modal>
       </div>

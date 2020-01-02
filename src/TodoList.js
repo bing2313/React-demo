@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Form, Icon, Input, Button, message } from 'antd';
-import TodoItem from './TodoItem.js'
+import TodoItem from '@/TodoItem.js'
 import 'antd/dist/antd.css';
-import './index.css';
+import '@/index.css';
 class TodoList extends Component {
   constructor(props){
     super(props);

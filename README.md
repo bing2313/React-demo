@@ -1,3 +1,6 @@
+> 此项目是初学React时候练习的小demo，用到了antd（Ant Design）UI框架
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
