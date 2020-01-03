@@ -17,7 +17,7 @@ class Login extends Component {
         {/* 左上角logo */}
         <div className="left_top_logo">
           <img src={require('../images/nosizeimg.png')} alt="Logo" />
-          <i></i>
+          <i>|</i>
           <span>{this.state.logoRightText}</span>
         </div>
         {/* 中间的模块 */}
